@@ -11,8 +11,8 @@ TL;DR, it's the next step in the Portable Class Libraries ecosystem.
 ## Who is this for?
 
 - [I already have a PCL csproj and I want to move to netstandard.](PclToNetStandard.md)
-- [I'm starting from scratch and I want to support netstandard](XProjNetStandard.md) OR [I'm willing to change my current project system and build to use the new xproj project system.](XProjNetStandard.md)
-- [I'm migrating an RC1 DNX project to an RC2 .NET CLI project](RC1ToRC2.md)
+- [I'm starting from scratch and I want to support netstandard.](XProjNetStandard.md) OR [I'm willing to change my current project system and build to use the new xproj project system.](XProjNetStandard.md)
+- [I'm migrating an RC1 DNX project to an RC2 .NET CLI project.](RC1ToRC2.md)
 - [I'm starting from my .NET Framework library and I want to go to netstandard.](NETFrameworkToNetStandard.md)
 
 ## Considerations
