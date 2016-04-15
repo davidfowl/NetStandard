@@ -2,6 +2,12 @@
 
 This is a work in progress and will change as we fix bugs in the product to improve the porting user experience.
 
+## What is it?
+
+[First read the uber document for background](https://github.com/dotnet/corefx/blob/master/Documentation/architecture/net-platform-standard.md).
+
+TL;DR, it's the next step in the Portable Class Libraries ecosystem.
+
 ## Who is this for?
 
 - [I already have a PCL csproj and I want to move to netstandard.](PclToNetStandard.md)
