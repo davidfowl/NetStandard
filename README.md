@@ -5,8 +5,8 @@ This is a work in progress and will change as we fix bugs in the product to impr
 ## Who is this for?
 
 - [I already have a PCL csproj and I want to move to netstandard.](PclToNetStandard.md)
-- [I'm starting from scratch and I want to support netstandard](XProjNetStandard.md)
-- [I'm willing to change my current project system and build to use the new xproj project system.](XProjNetStandard.md)
+- [I'm starting from scratch and I want to support netstandard](XProjNetStandard.md) OR [I'm willing to change my current project system and build to use the new xproj project system.](XProjNetStandard.md)
+- [I'm migrating an RC1 DNX projet to an RC2 .NET CLI project](RC1ToRc2.md)
 - [I'm starting from my .NET Framework library and I want to go to netstandard.](NETFrameworkToNetStandard.md)
 
 ## Considerations
