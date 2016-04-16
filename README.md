@@ -16,7 +16,7 @@ TL;DR, it's the next step in the Portable Class Libraries ecosystem.
 - [I'm starting from my .NET Framework library and I want to go to netstandard.](NETFrameworkToNetStandard.md)
 
 ## Considerations
-- There are no packages that exist with the netstandard target framework. This is because we it was created only a few months ago. This means that you may need to use a new feature called `project.json` **imports** to bypass the NuGet compatiblity check (see the compatiblity section of this document for more information).
+- There are no packages that exist with the netstandard target framework. This is because we it was created only a few months ago. This means that you may need to use a new feature called `project.json` **imports** to bypass the NuGet compatiblity check when pulling in other packages as dependencies (see the compatiblity section of this document for more information).
 - There are 2 NuGet experiences, `packages.config` and `project.json`. Most projects support `packages.config` today but NuGet is pushing people towards `project.json`. This is not the default experience in any other project except Windows Universal Applications and .NET Core projects.
 - This process only works with the latest Visual Studio. It means when you convert your project, you'll only be able to use it in Visual Studio 2015.
 - It's possible to author packages that work in Visual Studio 2012 - 2015 but the NuGet client on 2012 and 2013 does not currently support the netstandard moniker.
@@ -33,3 +33,4 @@ Everything is represented as packages. The biggest benefit to this is that it no
 - [Visual Studio 2015 Update 2](https://www.visualstudio.com/en-us/news/vs2015-update2-vs.aspx)
  - Make sure you have the latest version of NuGet >= 3.4
 - [NuGet.exe 3.4.2-rc](https://dist.nuget.org/win-x86-commandline/v3.4.2-rc/nuget.exe)
+
