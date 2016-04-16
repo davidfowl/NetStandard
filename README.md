@@ -26,7 +26,7 @@ TL;DR, it's the next step in the Portable Class Libraries ecosystem.
 
 ## Packages
 
-Everything is represented as packages. The biggest benefit to this is that it no longer requires an installed SDK or Visual Studio to compile for a specific target framework.
+Everything is represented as packages. The biggest benefit to this is that it no longer requires an installed SDK or Visual Studio to compile for a specific target framework. This is also beneficial for cross platform builds since the only thing you need is the .NET CLI tool chain.
 
 ## Tools of the trade
 - [Visual Studio 2015 Update 2](https://www.visualstudio.com/en-us/news/vs2015-update2-vs.aspx)
