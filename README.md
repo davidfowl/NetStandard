@@ -1,5 +1,7 @@
 # Netstandard Guide
 
+[![Join the chat at https://gitter.im/davidfowl/NetStandard](https://badges.gitter.im/davidfowl/NetStandard.svg)](https://gitter.im/davidfowl/NetStandard?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a work in progress and will change as we fix bugs in the product to improve the porting user experience. The target auidence for this is package authors. It assumes that you have built and pubished a nuget package before.
 
 ## What is it?
