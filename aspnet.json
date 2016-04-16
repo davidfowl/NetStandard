@@ -130,9 +130,6 @@
         "Microsoft.Owin.Security.Interop": "1.0.0-rc2-20595",
         "Microsoft.Extensions.Logging.EventLog": "1.0.0-rc2-20595",
         "Microsoft.Extensions.Caching.Redis": "1.0.0-rc2-20595",
-        "Microsoft.EntityFrameworkCore.Relational.FunctionalTests": "1.0.0-rc2-20595",
-        "Microsoft.EntityFrameworkCore.Relational.Design.FunctionalTests": "1.0.0-rc2-20595",
-        "Microsoft.EntityFrameworkCore.FunctionalTests": "1.0.0-rc2-20595",
         "Microsoft.AspNetCore.WebSockets.Client": "0.1.0-rc2-20595",
         "Microsoft.AspNetCore.Hosting.WindowsServices": "1.0.0-rc2-20595",
         "Microsoft.AspNetCore.DataProtection.SystemWeb": "1.0.0-rc2-20595"
