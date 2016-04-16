@@ -1,6 +1,6 @@
 # Netstandard Guide
 
-This is a work in progress and will change as we fix bugs in the product to improve the porting user experience.
+This is a work in progress and will change as we fix bugs in the product to improve the porting user experience. The target auidence for this is package authors. It assumes that you have built and pubished a nuget package before.
 
 ## What is it?
 
