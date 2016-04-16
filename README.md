@@ -23,6 +23,7 @@ TL;DR, it's the next step in the Portable Class Libraries ecosystem.
 - This process only works with the latest Visual Studio. It means when you convert your project, you'll only be able to use it in Visual Studio 2015.
 - It's possible to author packages that work in Visual Studio 2012 - 2015 but the NuGet client on 2012 and 2013 does not currently support the netstandard moniker. This doesn't mean things won't work, it just means you'll also need to include another dll in the package. The NuGet team is looking at down level support for this moniker.
 - Windows Universal platform applications do not yet work with RC2 packages, this means a nuget package that wants to target *all* platforms, you'll need to have a different set of dependencies in your nuspec/project.json for `netcore50`.
+- If you need to support .NET Framework <= 4.0, the you have to support multiple target frameworks in your nuget package. .NET Standard support is .NET Framework >= 4.5.
 - If you need to target multiple frameworks there are 2 approaches:
  - Use `.xproj` + `project.json`. This is a single project that can target multiple frameworks.
  - Use multiple `.csproj` files with different references
