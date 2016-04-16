@@ -23,3 +23,12 @@ TL;DR, it's the next step in the Portable Class Libraries ecosystem.
 - If you need to target multiple frameworks there are 2 approaches:
  - Use `.xproj` + `project.json`. This is a single project that can target multiple frameworks.
  - Use multiple `.csproj` files with different references
+
+## Packages
+
+Everything is represented as packages. The biggest benefit to this is that it no longer requires an installed SDK or Visual Studio to compile for a specific target framework.
+
+## Tools of the trade
+- [Visual Studio 2015 Update 2](https://www.visualstudio.com/en-us/news/vs2015-update2-vs.aspx)
+ - Make sure you have the latest version of NuGet >= 3.4
+- [NuGet.exe 3.4.2-rc](https://dist.nuget.org/win-x86-commandline/v3.4.2-rc/nuget.exe)
