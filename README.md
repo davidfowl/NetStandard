@@ -18,6 +18,27 @@ Moving to Netstandard is the way to go, going forward, to maximize reusability o
 - [I'm migrating an RC1 DNX project to an RC2 .NET CLI project.](RC1ToRC2.md)
 - [I'm starting from my .NET Framework library and I want to go to netstandard.](NETFrameworkToNetStandard.md)
 
+## Mapping to platforms
+
+| Target Platform Name | Alias |  |  |  |  |  | |
+| :---------- | :--------- |:--------- |:--------- |:--------- |:--------- |:--------- |:--------- |
+|.NET Platform Standard | netstandard | 1.0 | 1.1 | 1.2 | 1.3 | 1.4 | 1.5 |
+|.NET Core|netcoreapp|&rarr;|&rarr;|&rarr;|&rarr;|&rarr;|1.0|
+|.NET Framework|net|&rarr;|&rarr;|&rarr;|&rarr;|&rarr;|4.6.2|
+|||&rarr;|&rarr;|&rarr;|&rarr;|4.6.1||
+|||&rarr;|&rarr;|&rarr;|4.6|||
+|||&rarr;|&rarr;|4.5.2||||
+|||&rarr;|&rarr;|4.5.1||||
+|||&rarr;|4.5|||||
+|Universal Windows Platform|uap|&rarr;|&rarr;|&rarr;|&rarr;|10.0||
+|Windows|win|&rarr;|&rarr;|8.1||||
+|||&rarr;|8.0|||||
+|Windows Phone|wpa|&rarr;|&rarr;|8.1||||
+|Windows Phone Silverlight|wp|8.1||||||
+|||8.0||||||
+|Mono/Xamarin Platforms||&rarr;|&rarr;|&rarr;|&rarr;|&rarr;|*|
+|Mono||&rarr;|&rarr;|*|||||
+
 ## Considerations
 - There are currently few or no packages using the `netstandard` target framework, because it was only recently created. This means that you may need to use a new feature called `project.json` [**imports**](https://github.com/aspnet/Home/wiki/Project.json-file) to bypass the NuGet compatiblity check when pulling in other packages as dependencies (see the compatiblity section of this document for more information).
 - There are two NuGet experiences, `packages.config` and `project.json`. Most projects support `packages.config` today but NuGet is pushing people towards `project.json`. This is not the default experience in any other project except Windows Universal Applications and .NET Core projects.
