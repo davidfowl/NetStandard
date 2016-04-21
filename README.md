@@ -18,7 +18,7 @@ Moving to Netstandard is the way to go, going forward, to maximize reusability o
 - [I'm migrating an RC1 DNX project to an RC2 .NET CLI project.](RC1ToRC2.md)
 - [I'm starting from my .NET Framework library and I want to go to netstandard.](NETFrameworkToNetStandard.md)
 
-## Mapping to platforms
+## Mapping .NET Standard versions to platforms
 
 | Target Platform Name | Alias |  |  |  |  |  | |
 | :---------- | :--------- |:--------- |:--------- |:--------- |:--------- |:--------- |:--------- |
