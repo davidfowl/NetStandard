@@ -20,6 +20,8 @@ Moving to Netstandard is the way to go, going forward, to maximize reusability o
 
 ## Mapping .NET Standard versions to platforms
 
+[Explaination using C# interfaces](https://github.com/davidfowl/NetStandard/blob/master/platforms.cs)
+
 | Target Platform Name | Alias |  |  |  |  |  | |
 | :---------- | :--------- |:--------- |:--------- |:--------- |:--------- |:--------- |:--------- |
 |.NET Platform Standard | netstandard | 1.0 | 1.1 | 1.2 | 1.3 | 1.4 | 1.5 |
