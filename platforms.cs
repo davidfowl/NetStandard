@@ -117,7 +117,7 @@ namespace Analogy
 
     // .NET Core
 
-    interface INetCore10 : INetStandard15
+    interface INetCoreApp10 : INetStandard15
     {
 
     }
