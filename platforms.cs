@@ -92,7 +92,7 @@ namespace Analogy
 
     interface INetFramework462 : INetFramework461, INetStandard15
     {
-        // TODO: .NET Framework 4.6 specific APIs
+        // TODO: .NET Framework 4.6.2 specific APIs
     }
 
     // Windows Universal Platform
