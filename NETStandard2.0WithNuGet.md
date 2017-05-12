@@ -17,3 +17,16 @@
    at ClosedXML.Excel.XLWorkbook..ctor(XLEventTracking eventTracking) in C:\Projects\ClosedXML\ClosedXML\Excel\XLWorkbook.cs:line 678
    at ConsoleApp3.Program.Main(String[] args) in c:\users\davifowl\documents\visual studio 2017\Projects\ConsoleApp3\ConsoleApp3\Program.cs:line 13
    ```
+- [EPPlus](https://www.nuget.org/packages/EPPlus/) - Explodes with the following exception
+
+    ```
+    Unhandled Exception: System.ArgumentException: 'IBM437' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+    Parameter name: name
+    at System.Globalization.EncodingTable.internalGetCodePageFromName(String name)
+    at System.Globalization.EncodingTable.GetCodePageFromName(String name)
+    at System.Text.Encoding.GetEncoding(String name)
+    at OfficeOpenXml.Packaging.ZipPackage.Save(Stream stream)
+    at OfficeOpenXml.ExcelPackage.Save()
+    at OfficeOpenXml.ExcelPackage.SaveAs(Stream OutputStream)
+    at ConsoleApp3.Program.Main(String[] args) in c:\users\davifowl\documents\visual studio 2017\Projects\ConsoleApp3\ConsoleApp3\Program.cs:line 34
+    ```
