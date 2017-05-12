@@ -17,3 +17,4 @@
    at ClosedXML.Excel.XLWorkbook..ctor(XLEventTracking eventTracking) in C:\Projects\ClosedXML\ClosedXML\Excel\XLWorkbook.cs:line 678
    at ConsoleApp3.Program.Main(String[] args) in c:\users\davifowl\documents\visual studio 2017\Projects\ConsoleApp3\ConsoleApp3\Program.cs:line 13
    ```
+- [Botwin](https://www.nuget.org/packages/Botwin/) - Works
