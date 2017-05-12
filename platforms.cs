@@ -50,7 +50,6 @@ namespace Analogy
 
     interface INetStandard15 : INetStandard14
     {
-        void AssemblyLoadContext();
     }
 
     // .NET Framework 
