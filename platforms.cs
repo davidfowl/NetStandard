@@ -52,6 +52,16 @@ namespace Analogy
     {
     }
 
+    interface INetStandard16 : INetStandard15
+    {
+        void AssemblyLoadContext();
+    }
+
+    interface INetStandard20 : INetStandard14
+    {
+        void AssemblyLoadContext();
+    }
+
     // .NET Framework 
 
     interface INetFramework45 : INetStandard11
@@ -104,12 +114,12 @@ namespace Analogy
 
     // Xamarin 
 
-    interface IXamarinIOS : INetStandard15
+    interface IXamarinIOS : INetStandard20
     {
         void AppleAPIs();
     }
 
-    interface IXamarinAndroid : INetStandard15
+    interface IXamarinAndroid : INetStandard20
     {
         void GoogleAPIs();
     }
@@ -117,6 +127,11 @@ namespace Analogy
     // .NET Core
 
     interface INetCoreApp10 : INetStandard15
+    {
+
+    }
+
+    interface INetCoreApp11 : INetStandard20
     {
 
     }
