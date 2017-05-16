@@ -30,3 +30,8 @@
     at OfficeOpenXml.ExcelPackage.SaveAs(Stream OutputStream)
     at ConsoleApp3.Program.Main(String[] args) in c:\users\davifowl\documents\visual studio 2017\Projects\ConsoleApp3\ConsoleApp3\Program.cs:line 34
     ```
+- [PayPal .NET SDK](https://www.nuget.org/packages/paypal/) - Explodes with the following exception
+
+	```
+    Unhandled Exception: FileNotFoundException: Could not load file or assembly 'System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. The system cannot find the file specified.
+    ```
