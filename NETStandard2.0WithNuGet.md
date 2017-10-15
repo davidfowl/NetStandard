@@ -17,7 +17,7 @@
    at ClosedXML.Excel.XLWorkbook..ctor(XLEventTracking eventTracking) in C:\Projects\ClosedXML\ClosedXML\Excel\XLWorkbook.cs:line 678
    at ConsoleApp3.Program.Main(String[] args) in c:\users\davifowl\documents\visual studio 2017\Projects\ConsoleApp3\ConsoleApp3\Program.cs:line 13
    ```
-- [EPPlus](https://www.nuget.org/packages/EPPlus/) - Explodes with the following exception
+- [EPPlus](https://www.nuget.org/packages/EPPlus/) - Explodes with the following exception - __Check out [this](https://github.com/JanKallman/EPPlus/issues/31) issue, the comment solved my problem with the same exception!__
 
     ```
     Unhandled Exception: System.ArgumentException: 'IBM437' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
